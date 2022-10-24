@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: >
+      bash -c 'bundle exec rackup --host=0.0.0.0'
+    volumes:
+      - .:/nyasocom_oss
+      - bundle:/usr/local/bundle
+    ports:
+      - 9292:9292
+
+volumes:
+  bundle:
