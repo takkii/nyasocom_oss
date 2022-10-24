@@ -1,9 +1,8 @@
-lib = File.expand_path('~/Documents/standb', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+# frozen_string_literal: true
 
 ENV['RACK_ENV'] = 'test'
 
-require 'stand'
+require './stand'
 require 'spec_helper'
 require 'rspec'
 require 'rack/test'
