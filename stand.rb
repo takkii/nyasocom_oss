@@ -29,6 +29,7 @@ get '/' do
   @year = DateTime.now.year
   @wahugetsu = HimekuriClass.new.wahugetsu_web
   @takkii = ' Takayuki Kamiyama All Rights Reserved. '
-  @saya = Katana.new('Designed by NyaSoCom', 'Not Yet Another Software design of Computer.')
+  @saya = Katana.new('Designed by NyaSoCom', 'Not Yet Another Software design of Computer')
+  @nyasocom_version = '1.0'
   erb :index
 end
