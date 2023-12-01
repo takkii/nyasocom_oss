@@ -14,6 +14,7 @@ gem 'rack-protection'
 gem 'feedjira'
 gem 'httparty'
 gem 'nokogiri'
+# gem 'himekuri', '0.1.8', :path => File.expand_path("..", __FILE__)
 gem 'himekuri'
 gem 'puma'
 gem 'license_finder'
