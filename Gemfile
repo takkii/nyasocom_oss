@@ -16,9 +16,3 @@ gem 'httparty'
 gem 'nokogiri'
 gem 'puma'
 gem 'license_finder'
-
-# use rspec
-gem 'himekuri', '0.1.8', :path => File.expand_path("..", __FILE__)
-
-# rackup
-# gem 'himekuri'
