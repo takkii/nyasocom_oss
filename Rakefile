@@ -1,2 +1,2 @@
 require "sinatra"
-require './lib/stand'
+require "#{File.dirname(__FILE__)}/stand"
