@@ -1,5 +1,5 @@
 require 'bundler'
 Bundler.require
 
-require './stand'
+require './lib/stand'
 run Sinatra::Application
