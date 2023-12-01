@@ -1,2 +1,2 @@
 require "sinatra"
-require './stand'
+require './lib/stand'

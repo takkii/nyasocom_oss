@@ -5,7 +5,7 @@ require 'feedjira'
 require 'date'
 require 'sinatra/reloader'
 require 'httparty'
-require 'himekuri'
+require "#{File.dirname(__FILE__)}/himekuri"
 
 # class katana is mumei and slogan
 class Katana
