@@ -18,4 +18,4 @@ gem 'puma'
 gem 'license_finder'
 
 # Please comment when using nyasocom_oss.
-gem 'himekuri', :path => "#{Dir.home}" + "/GitHub/himekuri"
+# gem 'himekuri', :path => "#{Dir.home}" + "/GitHub/himekuri"
