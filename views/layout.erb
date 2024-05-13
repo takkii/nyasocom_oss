@@ -72,6 +72,10 @@
             <%= @himekuri %>
         </font>
         <br /><br />
+        <!-- font color='#000080' -->
+            <!-- %= @zella % -->
+        <!-- /font -->
+        <!-- br / --><!-- br / -->
         <font color='#000080'>
             <%= @reiwa %>
         </font>
@@ -137,7 +141,7 @@ function searchWord(word) {
 <div align='right'>
     <form action="views/layout.erb" lang="ja" onsubmit="searchWord(this.elements['word'].value);
             return false;">
-        <input type="text" name="word" value="検索する単語を入力">
+        <input type="text" name="word" placeholder="検索する単語を入力">
         <input type="submit" value="検索">
         <br>
 </div>
