@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.2.2'
+ruby '3.3.1'
 
 gem 'eventmachine', platforms: [:ruby]
 gem 'sinatra'
@@ -16,3 +16,6 @@ gem 'httparty'
 gem 'nokogiri'
 gem 'puma'
 gem 'license_finder'
+
+# Please comment when using nyasocom_oss.
+gem 'himekuri', :path => "#{Dir.home}" + "/GitHub/himekuri"
