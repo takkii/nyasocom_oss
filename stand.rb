@@ -5,7 +5,8 @@ require 'feedjira'
 require 'date'
 require 'sinatra/reloader'
 require 'httparty'
-require "#{File.dirname(__FILE__)}/lib/himekuri"
+#require "#{File.dirname(__FILE__)}/lib/himekuri"
+require 'himekuri'
 
 # class katana is mumei and slogan
 class Katana
@@ -30,6 +31,6 @@ get '/' do
   @wahugetsu = HimekuriClass.new.wahugetsu_web
   @takkii = ' Takayuki Kamiyama All Rights Reserved. '
   @saya = Katana.new('Designed by NyaSoCom', 'Not Yet Another Software design of Computer')
-  @nyasocom_version = '1.0'
+  @nyasocom_version = '1.1'
   erb :index
 end
