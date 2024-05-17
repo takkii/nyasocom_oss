@@ -16,6 +16,8 @@ begin
 
   if one.nil?
     puts ''
+    puts 'Please browzing http://localhost:9292'
+    puts ''
     puts 'nyasocom command, Stop is Ctrl + C'
     puts ''
     rackup = "rackup"
