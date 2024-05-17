@@ -16,6 +16,3 @@ gem 'httparty'
 gem 'nokogiri'
 gem 'puma'
 gem 'license_finder'
-
-# Please comment when using nyasocom_oss.
-# gem 'himekuri', :path => "#{Dir.home}" + "/GitHub/himekuri"
