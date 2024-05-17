@@ -3,9 +3,6 @@
 
 # vim: filetype=ruby
 
-lib = File.expand_path('lib', __dir__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-
 Encoding.default_internal = 'UTF-8'
 Encoding.default_external = 'UTF-8'
 
@@ -17,7 +14,7 @@ begin
   one = ARGV[0]
 
   if one.nil?
-    require 'stand'
+    require './stand'
     run Sinatra::Application
 
   elsif one.match?(v)
