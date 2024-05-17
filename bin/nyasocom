@@ -17,6 +17,9 @@ begin
   if one.nil?
     rackup = "rackup"
     stdout_rk, stderr_rk, status_rk = Open3.capture3(rackup)
+    puts ''
+    puts 'nyasocom command, Stop is Ctrl + C'
+    puts ''
     puts "#{stdout_rk}"
 
   elsif one.match?(v)
