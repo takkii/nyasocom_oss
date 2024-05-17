@@ -10,6 +10,7 @@ require 'sinatra/reloader'
 require 'httparty'
 require 'himekuri'
 require 'zella'
+require 'version'
 
 # class katana is mumei and slogan
 class Katana
@@ -33,6 +34,6 @@ get '/' do
   @zella = Zella.formula
   @takkii = ' Takayuki Kamiyama All Rights Reserved. '
   @saya = Katana.new('Designed by NyaSoCom', 'Not Yet Another Software design of Computer')
-  @nyasocom_version = '1.1'
+  @nyasocom_version = NYASOCOM::VERSION
   erb :index
 end

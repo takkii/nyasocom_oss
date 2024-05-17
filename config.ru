@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 require 'bundler'
 Bundler.require
 
-require "#{File.dirname(__FILE__)}/stand"
+require './stand'
 
 run Sinatra::Application

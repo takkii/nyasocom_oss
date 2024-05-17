@@ -1,0 +1,48 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# vim: filetype=ruby
+
+Encoding.default_internal = 'UTF-8'
+Encoding.default_external = 'UTF-8'
+
+begin
+  require 'open3'
+  require 'version'
+
+  v = /\A-v\z/
+
+  one = ARGV[0]
+
+  if one.nil?
+    puts ''
+    puts 'Please browzing http://localhost:9292'
+    puts ''
+    puts 'nyasocom command, Stop is Ctrl + C'
+    puts ''
+    rackup = "rackup"
+    stdout_rk, stderr_rk, status_rk = Open3.capture3(rackup)
+    puts "#{stdout_rk}"
+
+  elsif one.match?(v)
+    puts ''
+    puts 'STATUS'.center(60, '-')
+    puts ''
+    puts "NYASOCOM_VERSION : #{NYASOCOM::VERSION}"
+    puts <<-EOF
+
+Copyright (c) 2024 Takayuki Kamiyama
+
+    EOF
+    puts 'STATUS'.center(60, '-')
+    puts ''
+  else
+    puts 'Please input -v option.'
+  end
+rescue StandardError => e
+  puts e.backtrace
+ensure
+  GC.compact
+end
+
+__END__
