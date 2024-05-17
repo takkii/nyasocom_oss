@@ -1,0 +1,44 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# vim: filetype=ruby
+
+lib = File.expand_path('lib', __dir__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+Encoding.default_internal = 'UTF-8'
+Encoding.default_external = 'UTF-8'
+
+begin
+  require 'version'
+
+  v = /\A-v\z/
+
+  one = ARGV[0]
+
+  if one.nil?
+    require 'stand'
+    run Sinatra::Application
+
+  elsif one.match?(v)
+    puts ''
+    puts 'STATUS'.center(60, '-')
+    puts ''
+    puts "NYASOCOM_VERSION : #{NYASOCOM::VERSION}"
+    puts <<-EOF
+
+Copyright (c) 2024 Takayuki Kamiyama
+
+    EOF
+    puts 'STATUS'.center(60, '-')
+    puts ''
+  else
+    puts 'Please input -v option.'
+  end
+rescue StandardError => e
+  puts e.backtrace
+ensure
+  GC.compact
+end
+
+__END__
