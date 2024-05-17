@@ -14,11 +14,9 @@ begin
   one = ARGV[0]
 
   if one.nil?
-    require 'bundler'
-    Bundler.require
-
-    require './stand'
-    run Sinatra::Application
+    rackup = "rackup"
+    stdout_rk, stderr_rk, status_rk = Open3.capture3(rackup)
+    stdout_rk
 
   elsif one.match?(v)
     puts ''
