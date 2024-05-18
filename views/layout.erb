@@ -123,7 +123,7 @@
 function searchWord(word) {
     if (!document.getElementsByTagName) return;
     if (!word) return;
-    var arrayA = document.getElementsByTagName("a");
+    var arrayA = document.getElementsByTagName("a", "font", "title");
     for (i = 0; i < arrayA.length; i++) {
         if (arrayA[i].innerHTML.match(word)) {
             if (arrayA[i].scrollIntoView)
