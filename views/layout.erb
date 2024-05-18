@@ -12,14 +12,14 @@
     </noscript>
     <title>RSSアンテナ</title>
   </head>
-  <div class='bg-color'>
+  <body bgcolor='#99CCFF'>
     <center>
       <img src='img/kanbanlogo.gif'>
     </center>
     <center>
       <h3>
         <p>
-          <font color='#0000ff'> ～ GitHubの作業記録をRSSフィードで表示します ～ </font>
+          <div class="font-color"> ～ GitHubの作業記録をRSSフィードで表示します ～ </div>
         </p>
       </h3>
     </center>
@@ -29,11 +29,11 @@
         <td align='center'>
           <center>
             <h3>
-              <font color='#0000ff'>
+              <div class="font-color">
                 <p>
                   <%= @kanban %>
                 </p>
-              </font>
+              </div>
             </h3>
           </center>
         </td>
@@ -53,68 +53,69 @@
       </tr>
     </table>
   </center>
+  </body>
   <br>
   <center>
     <h3>
       <p>
-        <font color='#000080'>RSSアンテナ立ち上げ記念日 / 2016年2月5日</font>
+        <div class="font-color-blue">RSSアンテナ立ち上げ記念日 / 2016年2月5日</div>
       </p>
     </h3>
   </center>
   <br />
   <center>
     <h4>
-      <font color='#000080'>
+      <div class="font-color-blue">
         <%= @himekuri %>
-      </font>
+      </div>
       <br />
       <br />
-      <font color='#000080'>
+      <div class="font-color-blue">
         <%= @zella %>
-      </font>
+      </div>
       <br />
       <br />
-      <font color='#000080'>
+      <div class="font-color-blue">
         <%= @reiwa %>
-      </font>
+      </div>
       <br />
       <br />
-      <font color='#000080'>
+      <div class="font-color-blue">
         <%= @wahugetsu %>
-      </font>
+      </div>
       <br />
       <br />
-      <font color='#000080'>
+      <div class="font-color-blue">
         <div id="RealtimeClockArea2"></div>
-      </font>
+      </div>
     </h4>
   </center>
   <br>
   <center>
     <h4>
       <p>
-        <font color='#000080'>
+        <div class="font-color-blue">
           <%= @ruby %>
-        </font>
+        </div>
       </p>
     </h4>
   </center>
   <center>
     <h5>
       <p>
-        <font color='#000080'>Copyright 2016～
+        <div class="font-color-blue">Copyright 2016～
           <%= @year %>
           <%= @takkii %>
-        </font>
+        </div>
       </p>
     </h5>
   </center>
   <center>
     <h5>
       <p>
-        <font color='#000080'>
+        <div class="font-color-blue">
           <%= @saya.mumei %>
-        </font>
+        </div>
       </p>
     </h5>
   </center>
@@ -148,11 +149,10 @@
     <center>
       <h5>
         <p>
-          <font color='#000080'>
+          <div class="font-color-blue">
             <%= @saya.slogan %> <%= @nyasocom_version %>
-          </font>
+          </div>
         </p>
       </h5>
     </center>
-  </div>
 </html>
