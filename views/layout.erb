@@ -53,106 +53,106 @@
       </tr>
     </table>
   </center>
-  </body>
-  <br>
-  <center>
-    <h3>
-      <p>
-        <div class="font-color-blue">RSSアンテナ立ち上げ記念日 / 2016年2月5日</div>
-      </p>
-    </h3>
-  </center>
-  <br />
-  <center>
-    <h4>
-      <div class="font-color-blue">
-        <%= @himekuri %>
-      </div>
-      <br />
-      <br />
-      <div class="font-color-blue">
-        <%= @zella %>
-      </div>
-      <br />
-      <br />
-      <div class="font-color-blue">
-        <%= @reiwa %>
-      </div>
-      <br />
-      <br />
-      <div class="font-color-blue">
-        <%= @wahugetsu %>
-      </div>
-      <br />
-      <br />
-      <div class="font-color-blue">
-        <div id="RealtimeClockArea2"></div>
-      </div>
-    </h4>
-  </center>
-  <br>
-  <center>
-    <h4>
-      <p>
-        <div class="font-color-blue">
-          <%= @ruby %>
-        </div>
-      </p>
-    </h4>
-  </center>
-  <center>
-    <h5>
-      <p>
-        <div class="font-color-blue">Copyright 2016～
-          <%= @year %>
-          <%= @takkii %>
-        </div>
-      </p>
-    </h5>
-  </center>
-  <center>
-    <h5>
-      <p>
-        <div class="font-color-blue">
-          <%= @saya.mumei %>
-        </div>
-      </p>
-    </h5>
-  </center>
-  <br>
-  <center>
-    <a href='https://www.ruby-lang.org/ja/'><img src='/img/ruby.gif'></a><a href='http://www.sinatrarb.com/'><img src='/img/sinatra.gif'></a>
-  </center>
-  <script type="text/javascript">
-    function searchWord(word) {
-        if (!document.getElementsByTagName) return;
-        if (!word) return;
-        var arrayA = document.getElementsByTagName("a", "font", "title");
-        for (i = 0; i < arrayA.length; i++) {
-            if (arrayA[i].innerHTML.match(word)) {
-                if (arrayA[i].scrollIntoView)
-                    arrayA[i].scrollIntoView();
-                arrayA[i].focus();
-                return;
-            }
-        }
-        alert("見つかりませんでした。");
-    }
-  </script>
-  <div align='right'>
-    <form action="views/layout.erb" lang="ja" onsubmit="searchWord(this.elements['word'].value);
-            return false;">
-      <input type="text" name="word" placeholder="検索する単語を入力">
-      <input type="submit" value="検索">
-      <br>
+</body>
+<br>
+<center>
+  <h3>
+    <p>
+      <div class="font-color-blue">RSSアンテナ立ち上げ記念日 / 2016年2月5日</div>
+    </p>
+  </h3>
+</center>
+<br />
+<center>
+  <h4>
+    <div class="font-color-blue">
+      <%= @himekuri %>
     </div>
-    <center>
-      <h5>
-        <p>
-          <div class="font-color-blue">
-            <%= @saya.slogan %> <%= @nyasocom_version %>
-          </div>
-        </p>
-      </h5>
-    </center>
+    <br />
+    <br />
+    <div class="font-color-blue">
+      <%= @zella %>
+    </div>
+    <br />
+    <br />
+    <div class="font-color-blue">
+      <%= @reiwa %>
+    </div>
+    <br />
+    <br />
+    <div class="font-color-blue">
+      <%= @wahugetsu %>
+    </div>
+    <br />
+    <br />
+    <div class="font-color-blue">
+      <div id="RealtimeClockArea2"></div>
+    </div>
+  </h4>
+</center>
+<br>
+<center>
+  <h4>
+    <p>
+      <div class="font-color-blue">
+        <%= @ruby %>
+      </div>
+    </p>
+  </h4>
+</center>
+<center>
+  <h5>
+    <p>
+      <div class="font-color-blue">Copyright 2016～
+        <%= @year %>
+        <%= @takkii %>
+      </div>
+    </p>
+  </h5>
+</center>
+<center>
+  <h5>
+    <p>
+      <div class="font-color-blue">
+        <%= @saya.mumei %>
+      </div>
+    </p>
+  </h5>
+</center>
+<br>
+<center>
+  <a href='https://www.ruby-lang.org/ja/'><img src='/img/ruby.gif'></a><a href='http://www.sinatrarb.com/'><img src='/img/sinatra.gif'></a>
+</center>
+<script type="text/javascript">
+  function searchWord(word) {
+      if (!document.getElementsByTagName) return;
+      if (!word) return;
+      var arrayA = document.getElementsByTagName("a", "font", "title");
+      for (i = 0; i < arrayA.length; i++) {
+          if (arrayA[i].innerHTML.match(word)) {
+              if (arrayA[i].scrollIntoView)
+                  arrayA[i].scrollIntoView();
+              arrayA[i].focus();
+              return;
+          }
+      }
+      alert("見つかりませんでした。");
+  }
+</script>
+<div align='right'>
+  <form action="views/layout.erb" lang="ja" onsubmit="searchWord(this.elements['word'].value);
+            return false;">
+    <input type="text" name="word" placeholder="検索する単語を入力">
+    <input type="submit" value="検索">
+    <br>
+  </div>
+  <center>
+    <h5>
+      <p>
+        <div class="font-color-blue">
+          <%= @saya.slogan %> <%= @nyasocom_version %>
+        </div>
+      </p>
+    </h5>
+  </center>
 </html>
