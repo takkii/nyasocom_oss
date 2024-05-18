@@ -2,7 +2,7 @@
   <% Feedjira.parse(@rss).entries.each do |entry| %>
     <%= entry.summary %><a href='<%= entry.url %>'><%= entry.title %></a><br>
     <br>
-    <font color='#20b2aa'><%= entry.published.to_time.strftime '投稿時刻 ： %Y年%m月%d日 %H時%M分' %></font><br>
+    <div class="font-color-skyblue"><%= entry.published.to_time.strftime '投稿時刻 ： %Y年%m月%d日 %H時%M分' %></div><br>
     <br>
   <% end %>
 </ol>
