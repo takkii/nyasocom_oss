@@ -5,9 +5,13 @@
 }
 
 .font-color{
-  color: #0000ff;
+  color: #0000FF;
 }
 
 .font-color-blue{
   color: #000080;
+}
+
+.font-color-skyblue{
+  color: #2C7CFF;
 }
