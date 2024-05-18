@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang='ja'>
-
-<head>
+  <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/nyasocom.ico" type="image/vnd.microsoft.icon">
@@ -9,147 +8,151 @@
     <script type='text/javascript' src='js/cairo.js'></script>
     <script type='text/javascript' src='js/time.js'></script>
     <noscript>
-        <p>現在の設定では、JavaScriptを利用できません。有効にしてお使いくださいませ。</p>
+      <p>現在の設定では、JavaScriptを利用できません。有効にしてお使いくださいませ。</p>
     </noscript>
     <title>RSSアンテナ</title>
-</head>
-<div class='bg-color'>
-<center>
-    <img src='img/kanbanlogo.gif'>
-</center>
-<center>
-    <h3>
+  </head>
+  <div class='bg-color'>
+    <center>
+      <img src='img/kanbanlogo.gif'>
+    </center>
+    <center>
+      <h3>
         <p>
-            <font color='#0000ff'> ～ GitHubの作業記録をRSSフィードで表示します ～ </font>
+          <font color='#0000ff'> ～ GitHubの作業記録をRSSフィードで表示します ～ </font>
         </p>
-    </h3>
-</center>
-<center>
-    <img src='img/moon.gif'>
-    <table border='0'>
+      </h3>
+    </center>
+    <center>
+      <img src='img/moon.gif'>
+      <table border='0'>
         <td align='center'>
-            <center>
-                <h3>
-                    <font color='#0000ff'>
-                        <p>
-                            <%= @kanban %>
-                        </p>
-                    </font>
-                </h3>
-            </center>
+          <center>
+            <h3>
+              <font color='#0000ff'>
+                <p>
+                  <%= @kanban %>
+                </p>
+              </font>
+            </h3>
+          </center>
         </td>
-        </tr>
-        <tr>
-            <div class='subpage'>
-                <td align='center'>
-                    <center>
-                        <h3>
-                            <p>
-                                <%= yield :subpage %>
-                            </p>
-                        </h3>
-                    </center>
-                </td>
-            </div>
-        </tr>
+      </tr>
+      <tr>
+        <div class='subpage'>
+          <td align='center'>
+            <center>
+              <h3>
+                <p>
+                  <%= yield :subpage %>
+                </p>
+              </h3>
+            </center>
+          </td>
+        </div>
+      </tr>
     </table>
-</center>
-<br>
-<center>
+  </center>
+  <br>
+  <center>
     <h3>
-        <p>
-            <font color='#000080'>RSSアンテナ立ち上げ記念日 / 2016年2月5日</font>
-        </p>
+      <p>
+        <font color='#000080'>RSSアンテナ立ち上げ記念日 / 2016年2月5日</font>
+      </p>
     </h3>
-</center>
-<br />
-<center>
+  </center>
+  <br />
+  <center>
     <h4>
-        <font color='#000080'>
-            <%= @himekuri %>
-        </font>
-        <br /><br />
-        <font color='#000080'>
-            <%= @zella %>
-        </font>
-        <br /><br />
-        <font color='#000080'>
-            <%= @reiwa %>
-        </font>
-        <br /><br />
-        <font color='#000080'>
-            <%= @wahugetsu %>
-        </font>
-        <br /><br />
-        <font color='#000080'>
-            <div id="RealtimeClockArea2"></div>
-        </font>
+      <font color='#000080'>
+        <%= @himekuri %>
+      </font>
+      <br />
+      <br />
+      <font color='#000080'>
+        <%= @zella %>
+      </font>
+      <br />
+      <br />
+      <font color='#000080'>
+        <%= @reiwa %>
+      </font>
+      <br />
+      <br />
+      <font color='#000080'>
+        <%= @wahugetsu %>
+      </font>
+      <br />
+      <br />
+      <font color='#000080'>
+        <div id="RealtimeClockArea2"></div>
+      </font>
     </h4>
-</center>
-<br>
-<center>
+  </center>
+  <br>
+  <center>
     <h4>
-        <p>
-            <font color='#000080'>
-                <%= @ruby %>
-            </font>
-        </p>
+      <p>
+        <font color='#000080'>
+          <%= @ruby %>
+        </font>
+      </p>
     </h4>
-</center>
-<center>
+  </center>
+  <center>
     <h5>
-        <p>
-            <font color='#000080'>Copyright 2016～
-                <%= @year %>
-                <%= @takkii %>
-            </font>
-        </p>
+      <p>
+        <font color='#000080'>Copyright 2016～
+          <%= @year %>
+          <%= @takkii %>
+        </font>
+      </p>
     </h5>
-</center>
-<center>
+  </center>
+  <center>
     <h5>
-        <p>
-            <font color='#000080'>
-                <%= @saya.mumei %>
-            </font>
-        </p>
+      <p>
+        <font color='#000080'>
+          <%= @saya.mumei %>
+        </font>
+      </p>
     </h5>
-</center>
-<br>
-<center>
+  </center>
+  <br>
+  <center>
     <a href='https://www.ruby-lang.org/ja/'><img src='/img/ruby.gif'></a><a href='http://www.sinatrarb.com/'><img src='/img/sinatra.gif'></a>
-</center>
-<script type="text/javascript">
-function searchWord(word) {
-    if (!document.getElementsByTagName) return;
-    if (!word) return;
-    var arrayA = document.getElementsByTagName("a", "font", "title");
-    for (i = 0; i < arrayA.length; i++) {
-        if (arrayA[i].innerHTML.match(word)) {
-            if (arrayA[i].scrollIntoView)
-                arrayA[i].scrollIntoView();
-            arrayA[i].focus();
-            return;
+  </center>
+  <script type="text/javascript">
+    function searchWord(word) {
+        if (!document.getElementsByTagName) return;
+        if (!word) return;
+        var arrayA = document.getElementsByTagName("a", "font", "title");
+        for (i = 0; i < arrayA.length; i++) {
+            if (arrayA[i].innerHTML.match(word)) {
+                if (arrayA[i].scrollIntoView)
+                    arrayA[i].scrollIntoView();
+                arrayA[i].focus();
+                return;
+            }
         }
+        alert("見つかりませんでした。");
     }
-    alert("見つかりませんでした。");
-}
-</script>
-<div align='right'>
+  </script>
+  <div align='right'>
     <form action="views/layout.erb" lang="ja" onsubmit="searchWord(this.elements['word'].value);
             return false;">
-        <input type="text" name="word" placeholder="検索する単語を入力">
-        <input type="submit" value="検索">
-        <br>
-</div>
-<center>
-    <h5>
+      <input type="text" name="word" placeholder="検索する単語を入力">
+      <input type="submit" value="検索">
+      <br>
+    </div>
+    <center>
+      <h5>
         <p>
-            <font color='#000080'>
-                <%= @saya.slogan %> <%= @nyasocom_version %>
-            </font>
+          <font color='#000080'>
+            <%= @saya.slogan %> <%= @nyasocom_version %>
+          </font>
         </p>
-    </h5>
-</center>
-</div>
+      </h5>
+    </center>
+  </div>
 </html>
