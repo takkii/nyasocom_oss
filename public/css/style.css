@@ -4,7 +4,10 @@
   box-sizing: content-box;
 }
 
-.bg-color {
-  background-color: #CCFFFF;
-  position: relative;
+.font-color{
+  color: #0000ff;
+}
+
+.font-color-blue{
+  color: #000080;
 }
