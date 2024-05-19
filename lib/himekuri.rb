@@ -8,7 +8,7 @@ class HimekuriClass
 
   def himekuri_print
     dt = Date.today
-    week = %w(日 月 火 水 木 金 土)[dt.wday];
+    week = %w(日 月 火 水 木 金 土)[dt.wday]
     print '時刻を表示 : '
     t = Time.new # 今日の日付と時刻
     print t.strftime('%Y年%m月%d日 : %H時%M分%S秒 : ')
@@ -37,22 +37,23 @@ class HimekuriClass
   def wahugetsu_print
     td = Date.today
     nen = %w[令和]
-    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走 睦月]
+    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
+    wahugetsu_uru = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
 
     if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
-      wahugetsu[td.month + 1]
+      calc = wahugetsu_uru[td.month - 1]
     else
-      wahugetsu[td.month]
+      calc = wahugetsu[td.month]
     end
 
-    if "#{wahugetsu[td.month]}" == 13.to_s
+    if "#{wahugetsu[td.month]}" == 13.to_s || "#{wahugetsu[td.month]}" == 0.to_s
       begin
         raise "あり得ない数時の月です!"
       rescue => e
         puts e.cause.message
       end
     else
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{wahugetsu[0]}")
+      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{calc}")
     end
   end
 
@@ -82,22 +83,23 @@ class HimekuriClass
   def wahugetsu_web
     td = Date.today
     nen = %w[令和]
-    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走 睦月]
+    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
+    wahugetsu_uru = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
 
     if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
-      wahugetsu[td.month + 1]
+      calc = wahugetsu_uru[td.month - 1]
     else
-      wahugetsu[td.month]
+      calc = wahugetsu[td.month]
     end
 
-    if "#{wahugetsu[td.month]}" == 13.to_s
+    if "#{wahugetsu[td.month]}" == 13.to_s || "#{wahugetsu[td.month]}" == 0.to_s
       begin
         raise "あり得ない数時の月です!"
       rescue => e
         puts e.cause.message
       end
     else
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{wahugetsu[0]}")
+      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{calc}")
     end
   end
 end
