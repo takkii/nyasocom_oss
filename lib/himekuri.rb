@@ -37,23 +37,30 @@ class HimekuriClass
   def wahugetsu_print
     td = Date.today
     nen = %w[令和]
-    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
+    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走 睦月]
 
-    if "#{wahugetsu[0]}" == 12.to_s
+    if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
+      wahugetsu[td.month + 1]
+    else
+      wahugetsu[td.month]
+    end
+
+    if "#{wahugetsu[td.month]}" == 13.to_s
       begin
         raise "あり得ない数時の月です!"
       rescue => e
         puts e.cause.message
       end
     else
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"#{wahugetsu[0]}")
+      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{wahugetsu[0]}")
     end
   end
 
   def reiwa
     td = Date.today
     nen = %w(令和)
-    (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+ %w(日 月 火 水 木 金 土)[td.wday] + "曜日" )
+    week = %w(日 月 火 水 木 金 土)[td.wday]
+    (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{week}"+"曜日")
   end
 
   def himekuri
@@ -75,17 +82,22 @@ class HimekuriClass
   def wahugetsu_web
     td = Date.today
     nen = %w[令和]
+    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走 睦月]
 
-    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
+    if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
+      wahugetsu[td.month + 1]
+    else
+      wahugetsu[td.month]
+    end
 
-    if "#{wahugetsu[0]}" == 12.to_s
+    if "#{wahugetsu[td.month]}" == 13.to_s
       begin
         raise "あり得ない数時の月です!"
       rescue => e
         puts e.cause.message
       end
     else
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"#{wahugetsu[0]}")
+      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{wahugetsu[0]}")
     end
   end
 end
