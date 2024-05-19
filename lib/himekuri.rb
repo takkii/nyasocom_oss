@@ -3,7 +3,7 @@
 require 'date'
 require 'time'
 
-# use himekuri-0.1.8.gem in ./lib/himakuri.rb
+# HimekuriClass
 class HimekuriClass
 
   def himekuri_print
@@ -37,37 +37,16 @@ class HimekuriClass
   def wahugetsu_print
     td = Date.today
     nen = %w[令和]
+    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
 
-    if td.month == 1
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"睦月")
-    elsif td.month == 2
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"如月")
-    elsif td.month == 3
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"弥生")
-    elsif td.month == 4
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"卯月")
-    elsif td.month == 5
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"皐月")
-    elsif td.month == 6
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"水無月")
-    elsif td.month == 7
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"文月")
-    elsif td.month == 8
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"葉月")
-    elsif td.month == 9
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"長月")
-    elsif td.month == 10
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"神無月")
-    elsif td.month == 11
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"霜月")
-    elsif td.month == 12
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"師走")
-    else
+    if "#{wahugetsu[0]}" == 12.to_s
       begin
         raise "あり得ない数時の月です!"
       rescue => e
         puts e.cause.message
       end
+    else
+      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"#{wahugetsu[0]}")
     end
   end
 
@@ -97,36 +76,16 @@ class HimekuriClass
     td = Date.today
     nen = %w[令和]
 
-    if td.month == 1
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"睦月")
-    elsif td.month == 2
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"如月")
-    elsif td.month == 3
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"弥生")
-    elsif td.month == 4
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"卯月")
-    elsif td.month == 5
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"皐月")
-    elsif td.month == 6
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"水無月")
-    elsif td.month == 7
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"文月")
-    elsif td.month == 8
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"葉月")
-    elsif td.month == 9
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"長月")
-    elsif td.month == 10
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"神無月")
-    elsif td.month == 11
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"霜月")
-    elsif td.month == 12
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"師走")
-    else
+    wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
+
+    if "#{wahugetsu[0]}" == 12.to_s
       begin
         raise "あり得ない数時の月です!"
       rescue => e
-        e.cause.message
+        puts e.cause.message
       end
+    else
+      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+" : "+"#{wahugetsu[0]}")
     end
   end
 end
