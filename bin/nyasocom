@@ -21,9 +21,13 @@ Please browzing http://localhost:9292
 
 If you want to stop, Ctrl + C.
 
+Please Clone takkii/nyasocom_oss from GitHub.
+
+cd nyasocom_oss
+
     EOF
 
-    rackup = 'ruby ../stand.rb -p 9292'
+    rackup = 'ruby ./stand.rb -p 9292'
     stdout_rk, stderr_rk, status_rk = Open3.capture3(rackup)
     puts "#{stdout_rk}"
 
