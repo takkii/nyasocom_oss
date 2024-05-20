@@ -17,13 +17,13 @@ begin
   if one.nil?
     puts <<-EOF
 
+Clone takkii/nyasocom_oss from GitHub.
+
+cd nyasocom_oss && bundle install
+
 Please browzing http://localhost:9292
 
 If you want to stop, Ctrl + C.
-
-Please Clone takkii/nyasocom_oss from GitHub.
-
-cd nyasocom_oss
 
     EOF
 
