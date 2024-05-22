@@ -4,14 +4,18 @@
   box-sizing: content-box;
 }
 
-.font-color{
+.font-color {
   color: #0000FF;
 }
 
-.font-color-blue{
+.font-color-blue {
   color: #000080;
 }
 
-.font-color-skyblue{
+.font-color-skyblue {
   color: #2C7CFF;
+}
+
+body {
+  background-color: #99CCFF;
 }
