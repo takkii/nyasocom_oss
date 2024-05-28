@@ -130,12 +130,13 @@
   }
 </script>
 <div align='right'>
+  <div class="font-color-blue-bold"> タイトルの単語を検索します! </div>
   <form action="views/layout.erb" lang="ja" onsubmit="searchWord(this.elements['word'].value);
             return false;">
     <input type="text" name="word" placeholder="検索する単語を入力">
     <input type="submit" value="検索">
-    <br>
-  </div>
+  </form>
+</div>
   <center>
     <h5>
       <p>
