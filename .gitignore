@@ -1,2 +1,4 @@
+.DS_Store
+public/.DS_Store
 .ruby-lsp/*
 Gemfile.lock
