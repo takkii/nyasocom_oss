@@ -1,11 +1,24 @@
 # distro os.
 FROM ubuntu:bionic
+
 # mkdir users
 LABEL maintainer="Takayuki Kamiyama <karuma.reason@gmail.com>"
+
 # build package
 RUN apt-get update && apt-get install -y \
 git ruby-dev sqlite3 libxslt1-dev libxml2-dev build-essential patch \
-libsqlite3-dev libcurl4-openssl-dev curl nodejs && apt-get clean
+libsqlite3-dev libcurl4-openssl-dev curl
+
+# node.js
+RUN mkdir -p /etc/apt/keyrings
+RUN curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+RUN NODE_MAJOR=20 && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list
+RUN apt-get update
+RUN apt-get install nodejs -y
+RUN apt-get clean
+
+# npm install --global [npm|yarn]
+RUN npm install -g npm@latest
 
 # locale
 RUN apt install -y language-pack-ja
@@ -17,7 +30,7 @@ RUN echo 'eval "export LANG"' >> ~/.bashrc
 ENV RUBYOPT -EUTF-8
 
 # ruby
-FROM ruby:3.3.1
+FROM ruby:3.3.2
 
 # install
 RUN git clone -b main https://github.com/takkii/nyasocom_oss.git
@@ -26,10 +39,3 @@ COPY . /nyasocom_oss
 RUN bundle install
 
 EXPOSE 9292
-
-# All Docker remove command. Clean up all.
-# docker system prune
-# docker container prune
-# docker image prune
-# docker volume prune
-# docker network prune
