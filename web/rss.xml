@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/takkii</id>
+  <link type="text/html" rel="alternate" href="https://github.com/takkii"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/takkii.atom"/>
+  <title>GitHub Public Timeline Feed</title>
+  <updated>2024-06-15T09:21:11Z</updated>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39323118228</id>
+    <published>2024-06-15T09:21:11Z</published>
+    <updated>2024-06-15T09:21:11Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/e0bf4d5962...909aaeaf89"/>
+    <title type="html">takkii pushed to develop in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323118228,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;6b27c8d2-59b1-48a2-96db-745913750f96&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;2d12514ada8c4d65948c92ca8d82a723a68b071a1d1cebd22be7fca11d6a5550&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:21:11Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:21&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/909aaeaf891ca8c393302d5adb70c1f2149656c9&quot; rel=&quot;noreferrer&quot;&gt;909aaea&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2354687926&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/50&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/50/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/50&quot; rel=&quot;noreferrer&quot;&gt;#50&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/1e32c6578871de7cd0e798283f622c87ede73211&quot; rel=&quot;noreferrer&quot;&gt;1e32c65&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2354684689&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/49&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/49/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/49&quot; rel=&quot;noreferrer&quot;&gt;#49&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ReleaseEvent/39323105810</id>
+    <published>2024-06-15T09:19:41Z</published>
+    <updated>2024-06-15T09:19:41Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/releases/tag/2024/06/15"/>
+    <title type="html">takkii released HEAD at takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;ReleaseEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323105810,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;2e254c95-5c40-4e6f-a03d-6836002171c9&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;6e18f24ba8ab3f88531eef8c2975d45ade7240bc728e6f994a67e4553e3dba9b&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss/releases/tag/2024/06/15&quot; rel=&quot;noreferrer&quot;&gt;2024/06/15&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:19:41Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:19&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium &quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;/takkii/nyasocom_oss&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss/releases/tag/2024/06/15&quot; rel=&quot;noreferrer&quot;&gt;HEAD&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update. by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/takkii/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/takkii&quot; rel=&quot;noreferrer&quot;&gt;@takkii&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2354684689&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/49&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/49/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/49&quot; rel=&quot;noreferrer&quot;&gt;#49&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Update. by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/takkii/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/takkii&quot; rel=&quot;noreferrer&quot;&gt;@takkii&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2354687926&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/50&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/50/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/50&quot; rel=&quot;noreferrer&quot;&gt;#50&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/takkii/nyasocom_oss/compare/2024/06/14_1...2024/06/15&quot; rel=&quot;noreferrer&quot;&gt;&lt;tt&gt;2024/06/14_1...2024/06/15&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+          &lt;div class=&quot;h6 mb-1 color-fg-muted&quot;&gt;
+            Contributors
+          &lt;/div&gt;
+          &lt;div class=&quot;mt-1 mb-3&quot;&gt;
+            &lt;ul class=&quot;list-style-none d-flex flex-wrap mb-n2&quot;&gt;
+    &lt;li class=&quot;mb-2 mr-2&quot;&gt;
+      &lt;a href=&quot;https://github.com/takkii&quot; class=&quot;&quot; rel=&quot;noreferrer&quot;&gt;
+        &lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?v=4&quot; alt=&quot;@takkii&quot; size=&quot;32&quot; height=&quot;32&quot; width=&quot;32&quot; data-view-component=&quot;true&quot; class=&quot;avatar circle&quot;&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/39323105796</id>
+    <published>2024-06-15T09:19:41Z</published>
+    <updated>2024-06-15T09:19:41Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/tree/2024/06/15"/>
+    <title type="html">takkii created a tag 2024/06/15 in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;tag js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;CreateEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323105796,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;529e322b-b834-4e38-96b0-4283f37d7998&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;6b66747dc1d73abe5810f81459a8e1a18d461b50ef2f55ea2b7a9fa0fa45c424&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;color-fg-muted&quot;&gt;
+                &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+              
+              created a
+              tag
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+
+            &lt;span&gt;
+              · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:19:41Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:19&lt;/relative-time&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+          &lt;div class=&quot;d-inline-block&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+              &lt;div class=&quot;mr-2&quot;&gt;
+                &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=40&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;20&quot; height=&quot;20&quot; width=&quot;20&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+                  &lt;div class=&quot;d-inline-block&quot;&gt;
+                    &lt;a class=&quot;Link--primary text-bold&quot; title=&quot;2024/06/15&quot; href=&quot;/takkii/nyasocom_oss/tree/2024/06/15&quot; rel=&quot;noreferrer&quot;&gt;2024/06/15&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+                  &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jun 15&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39323097404</id>
+    <published>2024-06-15T09:18:54Z</published>
+    <updated>2024-06-15T09:18:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/1e32c65788...909aaeaf89"/>
+    <title type="html">takkii pushed to main in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323097404,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;df95355c-179e-4901-9a85-3a07cc0d0b9f&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;53dc15e1f3a1f94c2ffd4838a39bff5b0167dd84c419d44f083465912bd80bdd&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:18:54Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:18&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/909aaeaf891ca8c393302d5adb70c1f2149656c9&quot; rel=&quot;noreferrer&quot;&gt;909aaea&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2354687926&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/50&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/50/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/50&quot; rel=&quot;noreferrer&quot;&gt;#50&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/e0bf4d5962708ed6fb56a5a6b154afe7a686fd98&quot; rel=&quot;noreferrer&quot;&gt;e0bf4d5&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39323097321</id>
+    <published>2024-06-15T09:18:54Z</published>
+    <updated>2024-06-15T09:18:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/50"/>
+    <title type="html">takkii merged a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323097321,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;7e1b151d-ab27-41f8-b602-52c324511538&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;3f7381ad81328bc95bbe60c6a8ee26c293a50f52a6479e1c41a3d501da1b8db1&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          merged
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#50&quot; href=&quot;/takkii/nyasocom_oss/pull/50&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#50&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:18:54Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:18&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/50&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#50&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+1&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-1&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39323095742</id>
+    <published>2024-06-15T09:18:43Z</published>
+    <updated>2024-06-15T09:18:43Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/50"/>
+    <title type="html">takkii opened a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323095742,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;7a3ad9b8-5162-4c7d-8a31-21ee543753c8&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;b48a8183f0a291bfd6a17b9edb8ce0405d743cac6bdfcd6c8b027a8091fbf132&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          opened
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#50&quot; href=&quot;/takkii/nyasocom_oss/pull/50&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#50&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:18:43Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:18&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/50&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#50&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+1&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-1&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39323056691</id>
+    <published>2024-06-15T09:14:37Z</published>
+    <updated>2024-06-15T09:14:37Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/a12c8bbffc...e0bf4d5962"/>
+    <title type="html">takkii pushed to develop in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323056691,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;df759ddb-420e-4344-8e92-42fa9b1454fb&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;8ca04e6e1237b4c3a2fdd52cdf2d282e6affe4d98e3d7a2cbc5509de2c85e8e5&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:14:37Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:14&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/e0bf4d5962708ed6fb56a5a6b154afe7a686fd98&quot; rel=&quot;noreferrer&quot;&gt;e0bf4d5&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39323035957</id>
+    <published>2024-06-15T09:12:29Z</published>
+    <updated>2024-06-15T09:12:29Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/09a5557e2f...1e32c65788"/>
+    <title type="html">takkii pushed to main in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323035957,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;602103f0-5505-479b-b0cb-250eeb7ad858&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;43e5322cb332764a65a0a9a36654c94ec85df47c6632dba4ffa60ef4e08296ec&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:12:29Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:12&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/1e32c6578871de7cd0e798283f622c87ede73211&quot; rel=&quot;noreferrer&quot;&gt;1e32c65&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2354684689&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/49&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/49/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/49&quot; rel=&quot;noreferrer&quot;&gt;#49&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/a12c8bbffc35403d1e1b7db2c2288a9d6e4a69ad&quot; rel=&quot;noreferrer&quot;&gt;a12c8bb&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/takkii/nyasocom_oss/compare/09a5557e2f...1e32c65788&quot; rel=&quot;noreferrer&quot;&gt;1 more commit »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39323035884</id>
+    <published>2024-06-15T09:12:29Z</published>
+    <updated>2024-06-15T09:12:29Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/49"/>
+    <title type="html">takkii merged a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323035884,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;7663d3cc-b0f7-40f1-a3fb-bf4363042be0&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;69bacc25527da311273e796a0fa06f4bddd2e069f0bfb6d152ffb7d64c676961&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          merged
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#49&quot; href=&quot;/takkii/nyasocom_oss/pull/49&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#49&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:12:29Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:12&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/49&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#49&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+2&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-2&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39323034159</id>
+    <published>2024-06-15T09:12:17Z</published>
+    <updated>2024-06-15T09:12:17Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/49"/>
+    <title type="html">takkii opened a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323034159,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;e6978471-b951-416c-9ef5-7d646cff6b05&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;9bcd373f097b0c610f7f5e0d7266c2f5487529b66882aaeb95a719403e24db37&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          opened
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#49&quot; href=&quot;/takkii/nyasocom_oss/pull/49&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#49&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:12:17Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:12&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/49&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#49&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+2&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-2&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39323016331</id>
+    <published>2024-06-15T09:10:23Z</published>
+    <updated>2024-06-15T09:10:23Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/09a5557e2f...a12c8bbffc"/>
+    <title type="html">takkii pushed to develop in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39323016331,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;023eaf9c-469d-48d7-9f21-4e61352473b7&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;6ea9cd34679b6ecfdbeedc175d0e5947a0cea50e0f6442d7393fb97e8f0bdc6f&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-15T09:10:23Z&quot; data-view-component=&quot;true&quot;&gt;June 15, 2024 09:10&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/a12c8bbffc35403d1e1b7db2c2288a9d6e4a69ad&quot; rel=&quot;noreferrer&quot;&gt;a12c8bb&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/adaed0d3fae8446b470ffcf3bf878eb1afbc309c&quot; rel=&quot;noreferrer&quot;&gt;adaed0d&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39294647311</id>
+    <published>2024-06-14T08:01:03Z</published>
+    <updated>2024-06-14T08:01:03Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/60c8a8341a...09a5557e2f"/>
+    <title type="html">takkii pushed to develop in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39294647311,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;2364bf74-b94f-48bf-8e18-76fb9261ab61&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;06481ee3b99a9ff88f90c4b620f3c7a644926a4e99ecb4126cd9ebfb3ca0a2c8&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T08:01:03Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 08:01&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/09a5557e2f8fbf7437a25b8d580bbefe8ecfdcc6&quot; rel=&quot;noreferrer&quot;&gt;09a5557&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2352781704&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/48&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/48/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/48&quot; rel=&quot;noreferrer&quot;&gt;#48&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ReleaseEvent/39294607582</id>
+    <published>2024-06-14T07:59:44Z</published>
+    <updated>2024-06-14T07:59:44Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/releases/tag/2024/06/14_1"/>
+    <title type="html">takkii released HEAD at takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;ReleaseEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39294607582,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;ba7c2424-86b8-4897-9fe9-07012ee8972a&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;71fcefb4d60949ec2a6f5e20d4a5467cbd9099618e64ecc8f8b58592cce8c82f&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss/releases/tag/2024/06/14_1&quot; rel=&quot;noreferrer&quot;&gt;2024/06/14_1&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T07:59:44Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 07:59&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium &quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;/takkii/nyasocom_oss&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss/releases/tag/2024/06/14_1&quot; rel=&quot;noreferrer&quot;&gt;HEAD&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update. by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/takkii/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/takkii&quot; rel=&quot;noreferrer&quot;&gt;@takkii&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2352781704&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/48&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/48/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/48&quot; rel=&quot;noreferrer&quot;&gt;#48&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/takkii/nyasocom_oss/compare/2024/06/14...2024/06/14_1&quot; rel=&quot;noreferrer&quot;&gt;&lt;tt&gt;2024/06/14...2024/06/14_1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+          &lt;div class=&quot;h6 mb-1 color-fg-muted&quot;&gt;
+            Contributors
+          &lt;/div&gt;
+          &lt;div class=&quot;mt-1 mb-3&quot;&gt;
+            &lt;ul class=&quot;list-style-none d-flex flex-wrap mb-n2&quot;&gt;
+    &lt;li class=&quot;mb-2 mr-2&quot;&gt;
+      &lt;a href=&quot;https://github.com/takkii&quot; class=&quot;&quot; rel=&quot;noreferrer&quot;&gt;
+        &lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?v=4&quot; alt=&quot;@takkii&quot; size=&quot;32&quot; height=&quot;32&quot; width=&quot;32&quot; data-view-component=&quot;true&quot; class=&quot;avatar circle&quot;&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/39294607654</id>
+    <published>2024-06-14T07:59:44Z</published>
+    <updated>2024-06-14T07:59:44Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/tree/2024/06/14_1"/>
+    <title type="html">takkii created a tag 2024/06/14_1 in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;tag js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;CreateEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39294607654,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;604df9cd-e288-4b46-ad8e-7e656d3f4eaf&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;a4249fdaec7a166663d6153c508fe705ad8cff1da2806ebdfe8640838560ce53&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;color-fg-muted&quot;&gt;
+                &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+              
+              created a
+              tag
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+
+            &lt;span&gt;
+              · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T07:59:44Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 07:59&lt;/relative-time&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+          &lt;div class=&quot;d-inline-block&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+              &lt;div class=&quot;mr-2&quot;&gt;
+                &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=40&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;20&quot; height=&quot;20&quot; width=&quot;20&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+                  &lt;div class=&quot;d-inline-block&quot;&gt;
+                    &lt;a class=&quot;Link--primary text-bold&quot; title=&quot;2024/06/14_1&quot; href=&quot;/takkii/nyasocom_oss/tree/2024/06/14_1&quot; rel=&quot;noreferrer&quot;&gt;2024/06/14_1&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+                  &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jun 15&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39294597297</id>
+    <published>2024-06-14T07:59:22Z</published>
+    <updated>2024-06-14T07:59:22Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/ef27492e91...09a5557e2f"/>
+    <title type="html">takkii pushed to main in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39294597297,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;41bbf278-d01f-490e-abdf-0ce35713d091&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;d05cf7d686ba252a988c7bedf83d19588a96022f601698d01204f0052e22420a&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T07:59:22Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 07:59&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/09a5557e2f8fbf7437a25b8d580bbefe8ecfdcc6&quot; rel=&quot;noreferrer&quot;&gt;09a5557&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2352781704&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/48&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/48/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/48&quot; rel=&quot;noreferrer&quot;&gt;#48&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/60c8a8341a6f2210154de0e447640477449cc6d4&quot; rel=&quot;noreferrer&quot;&gt;60c8a83&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39294597043</id>
+    <published>2024-06-14T07:59:21Z</published>
+    <updated>2024-06-14T07:59:21Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/48"/>
+    <title type="html">takkii merged a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39294597043,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;5aa06b9e-3297-4561-b6ab-67f08fcb455b&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;323e70d0c441f732f8d7b1b9238b6988b66dbfb8c9d6a7283997f4222b1a6662&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          merged
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#48&quot; href=&quot;/takkii/nyasocom_oss/pull/48&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#48&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T07:59:21Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 07:59&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/48&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#48&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+2&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-4&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39294594811</id>
+    <published>2024-06-14T07:59:17Z</published>
+    <updated>2024-06-14T07:59:17Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/48"/>
+    <title type="html">takkii opened a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39294594811,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;f7ac2eb8-9f10-4bac-a64e-eb80779d5db2&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;5dfacbb989a37be982a9d932e4f302e8703e3af2cfa6e82fc9995fa36da58f74&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          opened
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#48&quot; href=&quot;/takkii/nyasocom_oss/pull/48&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#48&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T07:59:17Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 07:59&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/48&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#48&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+2&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-4&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39294581353</id>
+    <published>2024-06-14T07:58:48Z</published>
+    <updated>2024-06-14T07:58:48Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/ef27492e91...60c8a8341a"/>
+    <title type="html">takkii pushed to develop in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39294581353,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;160ab999-8121-4303-8738-5fdad5baa8cd&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;a9d38b0c111e82919bf12b16a2a1145e8a5e2764771b850e1c38a5d71326774b&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T07:58:48Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 07:58&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/60c8a8341a6f2210154de0e447640477449cc6d4&quot; rel=&quot;noreferrer&quot;&gt;60c8a83&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39290433919</id>
+    <published>2024-06-14T04:57:49Z</published>
+    <updated>2024-06-14T04:57:49Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/9cf1e430d7...ef27492e91"/>
+    <title type="html">takkii pushed to develop in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290433919,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;c5fcfc01-98d1-41c9-87cc-985ff2d9292a&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;fb98bbd49802a40b8acda795dc4e70d49879e1d8049f9af465a940e7aa916889&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:57:49Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:57&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/ef27492e912a362891ffbd61fe071a522a5f9bea&quot; rel=&quot;noreferrer&quot;&gt;ef27492&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2352503341&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/47&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/47/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/47&quot; rel=&quot;noreferrer&quot;&gt;#47&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:GollumEvent/39290421099</id>
+    <published>2024-06-14T04:56:57Z</published>
+    <updated>2024-06-14T04:56:57Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/wiki/manual"/>
+    <title type="html">takkii edited a wiki page in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;gollum js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;GollumEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290421099,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;1adb01d0-dd66-467d-bc7e-7dec3096229c&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;4b01f35766c264ef0f6aed9d449b7e952239f0c74e99b9ad79ee2bc7995d7d78&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- gollum --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          edited
+          a wiki page in
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:56:57Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:56&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+      &lt;div&gt;
+        &lt;ul class=&quot;list-style-none&quot;&gt;
+            &lt;li class=&quot;color-fg-muted&quot;&gt;
+              &lt;svg aria-label=&quot;Wiki&quot; role=&quot;img&quot; height=&quot;16&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;octicon octicon-book color-fg-muted mr-1 v-align-middle&quot;&gt;
+    &lt;path d=&quot;M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z&quot;&gt;&lt;/path&gt;
+&lt;/svg&gt;
+              Edited
+              &lt;a href=&quot;/takkii/nyasocom_oss/wiki/manual&quot; rel=&quot;noreferrer&quot;&gt;manual&lt;/a&gt;
+                &lt;div class=&quot;mt-2&quot;&gt;
+                  &lt;a class=&quot;f6 Link--primary text-bold&quot; href=&quot;/takkii/nyasocom_oss/wiki/manual/_compare/1ac9b87^...1ac9b87&quot; rel=&quot;noreferrer&quot;&gt;View the diff »&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ReleaseEvent/39290399316</id>
+    <published>2024-06-14T04:55:30Z</published>
+    <updated>2024-06-14T04:55:30Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/releases/tag/2024/06/14"/>
+    <title type="html">takkii released HEAD at takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;ReleaseEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290399316,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;367b53e2-131d-4bd8-977d-93d83d10b01a&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;3a3a72899803063cd4def04704212400d3fb4804b9930f35efde715076ce43a0&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss/releases/tag/2024/06/14&quot; rel=&quot;noreferrer&quot;&gt;2024/06/14&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:55:30Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:55&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium &quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;/takkii/nyasocom_oss&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss/releases/tag/2024/06/14&quot; rel=&quot;noreferrer&quot;&gt;HEAD&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update. by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/takkii/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/takkii&quot; rel=&quot;noreferrer&quot;&gt;@takkii&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2352503341&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/47&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/47/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/47&quot; rel=&quot;noreferrer&quot;&gt;#47&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/takkii/nyasocom_oss/compare/2024/06/13...2024/06/14&quot; rel=&quot;noreferrer&quot;&gt;&lt;tt&gt;2024/06/13...2024/06/14&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+          &lt;div class=&quot;h6 mb-1 color-fg-muted&quot;&gt;
+            Contributors
+          &lt;/div&gt;
+          &lt;div class=&quot;mt-1 mb-3&quot;&gt;
+            &lt;ul class=&quot;list-style-none d-flex flex-wrap mb-n2&quot;&gt;
+    &lt;li class=&quot;mb-2 mr-2&quot;&gt;
+      &lt;a href=&quot;https://github.com/takkii&quot; class=&quot;&quot; rel=&quot;noreferrer&quot;&gt;
+        &lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?v=4&quot; alt=&quot;@takkii&quot; size=&quot;32&quot; height=&quot;32&quot; width=&quot;32&quot; data-view-component=&quot;true&quot; class=&quot;avatar circle&quot;&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/39290399365</id>
+    <published>2024-06-14T04:55:30Z</published>
+    <updated>2024-06-14T04:55:30Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/tree/2024/06/14"/>
+    <title type="html">takkii created a tag 2024/06/14 in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;tag js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;CreateEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290399365,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;0a64492a-936e-418c-9583-6000468f0786&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;6309b0184450cc173b389a418e19a89ca49e4c44bb104459abbfcccfa79e5352&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;color-fg-muted&quot;&gt;
+                &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+              
+              created a
+              tag
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+
+            &lt;span&gt;
+              · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:55:30Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:55&lt;/relative-time&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+          &lt;div class=&quot;d-inline-block&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+              &lt;div class=&quot;mr-2&quot;&gt;
+                &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=40&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;20&quot; height=&quot;20&quot; width=&quot;20&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+                  &lt;div class=&quot;d-inline-block&quot;&gt;
+                    &lt;a class=&quot;Link--primary text-bold&quot; title=&quot;2024/06/14&quot; href=&quot;/takkii/nyasocom_oss/tree/2024/06/14&quot; rel=&quot;noreferrer&quot;&gt;2024/06/14&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+                  &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jun 15&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39290392786</id>
+    <published>2024-06-14T04:55:04Z</published>
+    <updated>2024-06-14T04:55:04Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/47"/>
+    <title type="html">takkii merged a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_merged js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290392786,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;4e5da74a-83a7-4778-8f80-e0c13096c99f&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;91e09df21727cff16283f595bfb1204f3c1aa30b09cd5bf842f7d947e28f7b44&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          merged
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#47&quot; href=&quot;/takkii/nyasocom_oss/pull/47&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#47&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:55:04Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:55&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request merged d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/47&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#47&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+1&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-1&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39290392970</id>
+    <published>2024-06-14T04:55:05Z</published>
+    <updated>2024-06-14T04:55:05Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/9137d21817...ef27492e91"/>
+    <title type="html">takkii pushed to main in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290392970,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;d9fee96d-6383-4bcb-aa46-05f41df6e560&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;8a4786cf69af42fb8725449861e65a3fb4a2e10fe7a25a14c1030963a20b5615&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:55:05Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:55&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/ef27492e912a362891ffbd61fe071a522a5f9bea&quot; rel=&quot;noreferrer&quot;&gt;ef27492&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2352503341&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/nyasocom_oss/issues/47&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/nyasocom_oss/pull/47/hovercard&quot; href=&quot;https://github.com/takkii/nyasocom_oss/pull/47&quot; rel=&quot;noreferrer&quot;&gt;#47&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/9cf1e430d703b3f600f7fc60241e796100e6674f&quot; rel=&quot;noreferrer&quot;&gt;9cf1e43&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/39290391193</id>
+    <published>2024-06-14T04:54:59Z</published>
+    <updated>2024-06-14T04:54:59Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/pull/47"/>
+    <title type="html">takkii opened a pull request in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;issues_opened js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PullRequestEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290391193,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;07004ce8-1512-4325-a5f5-83559e8105ad&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;5c6a4b877408c349fb9ea3c6a5b8aa86e87aa0b81a5b4120665ccab5d03cbf67&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- pull_request --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+        &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+          opened
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; aria-label=&quot;takkii/nyasocom_oss#47&quot; href=&quot;/takkii/nyasocom_oss/pull/47&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss#47&lt;/a&gt;
+          &lt;span&gt;
+            · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:54:59Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:54&lt;/relative-time&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 my-2 color-shadow-medium &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;div&gt;
+          &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;&lt;a class=&quot;color-fg-default text-bold&quot; aria-label=&quot;Update.&quot; href=&quot;/takkii/nyasocom_oss/pull/47&quot; rel=&quot;noreferrer&quot;&gt;Update.&lt;/a&gt;&lt;/span&gt;
+          &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#47&lt;/span&gt;
+            &lt;div class=&quot;lh-condensed mb-2 mt-1&quot;&gt;
+              &lt;p&gt;PR, develop.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;diffstat d-inline-block mt-1&quot;&gt;
+            &lt;span class=&quot;color-fg-success&quot;&gt;+1&lt;/span&gt;
+            &lt;span class=&quot;color-fg-danger&quot;&gt;-1&lt;/span&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39290387148</id>
+    <published>2024-06-14T04:54:43Z</published>
+    <updated>2024-06-14T04:54:43Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/nyasocom_oss/compare/9137d21817...9cf1e430d7"/>
+    <title type="html">takkii pushed to develop in takkii/nyasocom_oss</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:530934382,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39290387148,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;9d067f0d-3954-4ae4-bb2c-28b93501f1d4&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;3fe04dc2e56c63a3b2408f2d3259eb8acae7f370cf0304de804fdf4e19d8f078&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/nyasocom_oss&quot; rel=&quot;noreferrer&quot;&gt;takkii/nyasocom_oss&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-14T04:54:43Z&quot; data-view-component=&quot;true&quot;&gt;June 14, 2024 04:54&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/nyasocom_oss/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/nyasocom_oss/commit/9cf1e430d703b3f600f7fc60241e796100e6674f&quot; rel=&quot;noreferrer&quot;&gt;9cf1e43&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39254336647</id>
+    <published>2024-06-13T05:50:13Z</published>
+    <updated>2024-06-13T05:50:13Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/UKEditor/compare/daee1e6aa2...b33a34edc2"/>
+    <title type="html">takkii pushed to develop in takkii/UKEditor</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:612808059,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39254336647,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;bddb9f51-f75c-4db2-82d5-25837789f186&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;618f2fcc9c5e77e6a4579c44334ac24b4a452c0582359cfa00caeb12bf3d1294&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/UKEditor/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/UKEditor&quot; rel=&quot;noreferrer&quot;&gt;takkii/UKEditor&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-13T05:50:13Z&quot; data-view-component=&quot;true&quot;&gt;June 13, 2024 05:50&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/UKEditor/tree/develop&quot; rel=&quot;noreferrer&quot;&gt;develop&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/UKEditor/commit/b33a34edc2dae2c3d8037838177cca42e87287c9&quot; rel=&quot;noreferrer&quot;&gt;b33a34e&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2350209949&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/UKEditor/issues/25&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/UKEditor/pull/25/hovercard&quot; href=&quot;https://github.com/takkii/UKEditor/pull/25&quot; rel=&quot;noreferrer&quot;&gt;#25&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ReleaseEvent/39254314661</id>
+    <published>2024-06-13T05:49:08Z</published>
+    <updated>2024-06-13T05:49:08Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/UKEditor/releases/tag/2024/06/13_1"/>
+    <title type="html">takkii released HEAD at takkii/UKEditor</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;release js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:612808059,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;ReleaseEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39254314661,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;790e70ec-b701-4c50-a162-bd275896d6c8&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;3c530023fb286057438356fb1fc110ac69a36752175d04d51ae8a2e15428ada7&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot; style=&quot;min-width: 0;&quot;&gt;
+      &lt;div class=&quot;color-fg-muted&quot;&gt;
+          &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+          
+        released
+        &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/UKEditor/releases/tag/2024/06/13_1&quot; rel=&quot;noreferrer&quot;&gt;2024/06/13_1&lt;/a&gt;
+          of
+          &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/UKEditor&quot; rel=&quot;noreferrer&quot;&gt;takkii/UKEditor&lt;/a&gt;
+        &lt;span&gt;
+          · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-13T05:49:08Z&quot; data-view-component=&quot;true&quot;&gt;June 13, 2024 05:49&lt;/relative-time&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;Box mt-2 color-shadow-medium &quot;&gt;
+      &lt;div class=&quot;p-3&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-start flex-justify-between flex-column flex-sm-row&quot;&gt;
+          &lt;div class=&quot;d-flex flex-items-center&quot;&gt;
+            &lt;div class=&quot;mr-1&quot;&gt;
+              &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;16&quot; height=&quot;16&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div&gt;
+              &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt; /
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/UKEditor&quot; rel=&quot;noreferrer&quot;&gt;/takkii/UKEditor&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default my-2&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline text-bold wb-break-all d-inline-block&quot; href=&quot;/takkii/UKEditor/releases/tag/2024/06/13_1&quot; rel=&quot;noreferrer&quot;&gt;HEAD&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted comment-body markdown-body mt-1 p-0 release-feed-inline-last-p&quot;&gt;
+            &lt;h2&gt;What&#39;s Changed&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Update. by &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/takkii/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/takkii&quot; rel=&quot;noreferrer&quot;&gt;@takkii&lt;/a&gt; in &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2350209949&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/UKEditor/issues/25&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/UKEditor/pull/25/hovercard&quot; href=&quot;https://github.com/takkii/UKEditor/pull/25&quot; rel=&quot;noreferrer&quot;&gt;#25&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&quot;commit-link&quot; href=&quot;https://github.com/takkii/UKEditor/compare/v1.0.3.11...2024/06/13_1&quot; rel=&quot;noreferrer&quot;&gt;&lt;tt&gt;v1.0.3.11...2024/06/13_1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;p-3 border-top&quot;&gt;
+          &lt;div class=&quot;h6 mb-1 color-fg-muted&quot;&gt;
+            Contributors
+          &lt;/div&gt;
+          &lt;div class=&quot;mt-1 mb-3&quot;&gt;
+            &lt;ul class=&quot;list-style-none d-flex flex-wrap mb-n2&quot;&gt;
+    &lt;li class=&quot;mb-2 mr-2&quot;&gt;
+      &lt;a href=&quot;https://github.com/takkii&quot; class=&quot;&quot; rel=&quot;noreferrer&quot;&gt;
+        &lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?v=4&quot; alt=&quot;@takkii&quot; size=&quot;32&quot; height=&quot;32&quot; width=&quot;32&quot; data-view-component=&quot;true&quot; class=&quot;avatar circle&quot;&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/39254314699</id>
+    <published>2024-06-13T05:49:08Z</published>
+    <updated>2024-06-13T05:49:08Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/UKEditor/tree/2024/06/13_1"/>
+    <title type="html">takkii created a tag 2024/06/13_1 in takkii/UKEditor</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;tag js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:612808059,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;CreateEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39254314699,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;4935280c-e95a-459f-a790-c3b69a8db44a&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;23a6e1a22a01565dc6f5ef546a9d3afc5d8faa36cfa3ba1e799e19bb5668cfcf&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;color-fg-muted&quot;&gt;
+                &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+              
+              created a
+              tag
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/UKEditor&quot; rel=&quot;noreferrer&quot;&gt;takkii/UKEditor&lt;/a&gt;
+
+            &lt;span&gt;
+              · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-13T05:49:08Z&quot; data-view-component=&quot;true&quot;&gt;June 13, 2024 05:49&lt;/relative-time&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+          &lt;div class=&quot;d-inline-block&quot;&gt;
+            &lt;div class=&quot;d-flex&quot;&gt;
+              &lt;div class=&quot;mr-2&quot;&gt;
+                &lt;a class=&quot;d-flex&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img src=&quot;https://avatars.githubusercontent.com/u/1314340?s=40&amp;amp;v=4&quot; alt=&quot;@takkii&quot; size=&quot;20&quot; height=&quot;20&quot; width=&quot;20&quot; data-view-component=&quot;true&quot; class=&quot;avatar avatar-small circle&quot;&gt;&lt;/a&gt;
+              &lt;/div&gt;
+                  &lt;div class=&quot;d-inline-block&quot;&gt;
+                    &lt;a class=&quot;Link--primary text-bold&quot; title=&quot;2024/06/13_1&quot; href=&quot;/takkii/UKEditor/tree/2024/06/13_1&quot; rel=&quot;noreferrer&quot;&gt;2024/06/13_1&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/takkii/UKEditor&quot; rel=&quot;noreferrer&quot;&gt;takkii/UKEditor&lt;/a&gt;
+                  &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jun 13&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/39254307746</id>
+    <published>2024-06-13T05:48:47Z</published>
+    <updated>2024-06-13T05:48:47Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/takkii/UKEditor/compare/68d0e7c5ea...b33a34edc2"/>
+    <title type="html">takkii pushed to main in takkii/UKEditor</title>
+    <author>
+      <name>takkii</name>
+      <uri>https://github.com/takkii</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/1314340?s=30&amp;v=4"/>
+    <content type="html">&lt;div class=&quot;push js-feed-item-view&quot; data-hydro-view=&quot;{&amp;quot;event_type&amp;quot;:&amp;quot;news_feed.event.view&amp;quot;,&amp;quot;payload&amp;quot;:{&amp;quot;event&amp;quot;:{&amp;quot;repo_id&amp;quot;:612808059,&amp;quot;actor_id&amp;quot;:1314340,&amp;quot;public&amp;quot;:true,&amp;quot;type&amp;quot;:&amp;quot;PushEvent&amp;quot;,&amp;quot;target_id&amp;quot;:null,&amp;quot;id&amp;quot;:39254307746,&amp;quot;additional_details_shown&amp;quot;:false,&amp;quot;grouped&amp;quot;:false},&amp;quot;event_group&amp;quot;:null,&amp;quot;org_id&amp;quot;:null,&amp;quot;target_type&amp;quot;:&amp;quot;event&amp;quot;,&amp;quot;user_id&amp;quot;:null,&amp;quot;feed_card&amp;quot;:{&amp;quot;card_retrieved_id&amp;quot;:&amp;quot;d56abce4-fcad-47d2-8f9e-e3e8e17221b4&amp;quot;},&amp;quot;originating_url&amp;quot;:&amp;quot;https://github.com/takkii.atom&amp;quot;}}&quot; data-hydro-view-hmac=&quot;aee758ca43ebf62c6d9f132c74b82e8fb98e796c3b7b37ef7115d6ed45d99c36&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline py-4&quot;&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;color-fg-muted&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;takkii&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/UKEditor/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all&quot; href=&quot;/takkii/UKEditor&quot; rel=&quot;noreferrer&quot;&gt;takkii/UKEditor&lt;/a&gt;
+      &lt;span&gt;
+        · &lt;relative-time tense=&quot;past&quot; datetime=&quot;2024-06-13T05:48:47Z&quot; data-view-component=&quot;true&quot;&gt;June 13, 2024 05:48&lt;/relative-time&gt;
+      &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 color-shadow-medium &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/takkii/UKEditor/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/UKEditor/commit/b33a34edc2dae2c3d8037838177cca42e87287c9&quot; rel=&quot;noreferrer&quot;&gt;b33a34e&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;2350209949&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/takkii/UKEditor/issues/25&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/takkii/UKEditor/pull/25/hovercard&quot; href=&quot;https://github.com/takkii/UKEditor/pull/25&quot; rel=&quot;noreferrer&quot;&gt;#25&lt;/a&gt; from takkii/develop
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/takkii&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/1314340?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@takkii&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/takkii/UKEditor/commit/daee1e6aa29fa03284cfa3c022ebb192cc0ccffe&quot; rel=&quot;noreferrer&quot;&gt;daee1e6&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update.
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/takkii/UKEditor/compare/68d0e7c5ea...b33a34edc2&quot; rel=&quot;noreferrer&quot;&gt;2 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+  </entry>
+</feed>

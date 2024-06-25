@@ -3,12 +3,11 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'sinatra'
-require 'feedjira'
 require 'date'
-require 'sinatra/reloader'
-require 'httparty'
 require 'himekuri'
+require 'nokogiri'
+require 'sinatra'
+require 'sinatra/reloader'
 require 'zella'
 require 'version'
 
@@ -22,10 +21,15 @@ class Katana
   end
 end
 
+
 get '/' do
+
+File.open("#{File.dirname(__FILE__)}/web/rss.xml") do |f|
+  xml = f.read
+  @rss = Nokogiri::XML(xml, nil, "UTF-8")
+end
+
   @kanban = '[これより、30タイトル程ずつ履歴表示します]'
-  url = 'http://github.com/takkii.atom'
-  @rss = HTTParty.get(url).body
   @ruby = ('Ruby_VERSION : ' + RUBY_VERSION + ' ' + 'Sinatra_VERSION : ' + Sinatra::VERSION)
   @himekuri = HimekuriClass.new.himekuri
   @reiwa = HimekuriClass.new.reiwa
