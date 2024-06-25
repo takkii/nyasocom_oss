@@ -29,7 +29,8 @@ File.open("#{File.dirname(__FILE__)}/web/rss.xml") do |f|
   @rss = Nokogiri::XML(xml, nil, "UTF-8")
 end
 
-  @kanban = '[これより、30タイトル程ずつ履歴表示します]'
+  @rss_kan = '[ rss.xmlを読み込んで、最近の投稿日を表示 ]'
+  @kanban = '[ これより、30タイトル程ずつ履歴表示します ]'
   @ruby = ('Ruby_VERSION : ' + RUBY_VERSION + ' ' + 'Sinatra_VERSION : ' + Sinatra::VERSION)
   @himekuri = HimekuriClass.new.himekuri
   @reiwa = HimekuriClass.new.reiwa
