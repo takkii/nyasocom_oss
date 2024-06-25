@@ -53,9 +53,9 @@
                     <br /><br />
                     <% end %>
                     <p>
-                      <div class="font-color"> ~ にゃそこん起動時、rss.xmlを読み込んで表示 ~ </div>
+                      <div class="font-color"> <%= @rss_kan %> </div>
                       <br /><br />
-                      <%= Date.parse(published).strftime '最近の投稿日 ： %Y年%m月%d日' %>
+                      <%=  Date.parse(published).strftime '投稿日 ： %Y年%m月%d日' %>
                     </p>
                    </div>
                   <br />
@@ -72,7 +72,7 @@
 <center>
   <h3>
     <p>
-      <div class="font-color-blue">RSSアンテナ立ち上げ記念日 / 2016年2月5日</div>
+      <div class="font-color">RSSアンテナ立ち上げ記念日 / 2016年2月5日</div>
     </p>
   </h3>
 </center>
@@ -98,7 +98,7 @@
 <center>
   <h4>
     <p>
-      <div class="font-color-blue">
+      <div class="font-color">
         <%= @ruby %>
       </div>
     </p>
@@ -154,7 +154,7 @@
   <center>
     <h5>
       <p>
-        <div class="font-color-blue">
+        <div class="font-color">
           <%= @saya.slogan %> <%= @nyasocom_version %>
         </div>
       </p>
