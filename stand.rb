@@ -8,8 +8,8 @@ require 'himekuri'
 require 'nokogiri'
 require 'sinatra'
 require 'sinatra/reloader'
-require 'zella'
 require 'version'
+require 'zella'
 
 # class katana is mumei and slogan
 class Katana
@@ -29,7 +29,9 @@ File.open("#{File.dirname(__FILE__)}/web/rss.xml") do |f|
   @rss = Nokogiri::XML(xml, nil, "UTF-8")
 end
 
-  @rss_kan = '[ rss.xmlを読み込んで、最近の投稿日を表示 ]'
+  published = @rss.css('published').first.content
+  @pub_date = Date.parse(published).strftime '投稿日 ： %Y年%m月%d日'
+  @rss_kan = '[ 最近の投稿日を表示 ]'
   @kanban = '[ これより、30タイトル程ずつ履歴表示します ]'
   @ruby = ('Ruby_VERSION : ' + RUBY_VERSION + ' ' + 'Sinatra_VERSION : ' + Sinatra::VERSION)
   @himekuri = HimekuriClass.new.himekuri
