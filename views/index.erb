@@ -47,7 +47,7 @@
                    <div class="font-color-blue">
                     <br /><br />
                     <% @title.each do |link| %>
-                    <%= link.text %>
+                    <%= (link.text).chomp %>
                     <br /><br />
                     <% end %>
                     <p>

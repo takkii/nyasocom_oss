@@ -8,7 +8,7 @@ begin
     @rss = Nokogiri::XML(xml, nil, "UTF-8")
     title = @rss.css('title')
     title.each do |link|
-        puts link.text
+        puts (link.text).chomp
         puts ''
     end
   end
