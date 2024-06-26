@@ -45,7 +45,6 @@
               <h3>
                 <p>
                   <% title = @rss.css('title') %>
-                  <% published = @rss.css('published').first.content %>
                    <div class="font-color-blue">
                     <br /><br />
                     <% title.each do |link| %>
@@ -55,7 +54,7 @@
                     <p>
                       <div class="font-color"> <%= @rss_kan %> </div>
                       <br /><br />
-                      <%=  Date.parse(published).strftime '投稿日 ： %Y年%m月%d日' %>
+                      <%= @pub_date %>
                     </p>
                    </div>
                   <br />
@@ -144,7 +143,7 @@
   }
 </script>
 <div align='right'>
-  <div class="font-color-blue-bold"> タイトルの単語を検索します! </div>
+  <div class="font-color-blue-bold"> Webページ内、単語を検索！ </div>
   <form action="views/index.erb" lang="ja" onsubmit="searchWord(this.elements['word'].value);
             return false;">
     <input type="text" name="word" placeholder="検索する単語を入力">
