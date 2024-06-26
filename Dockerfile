@@ -28,7 +28,7 @@ RUN echo 'eval "export LANG"' >> ~/.bashrc
 ENV RUBYOPT -EUTF-8
 
 # ruby
-FROM ruby:3.3.2
+FROM ruby:3.3.3
 
 # install
 RUN git clone -b main https://github.com/takkii/nyasocom_oss.git
