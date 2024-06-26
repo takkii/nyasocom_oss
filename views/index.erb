@@ -44,10 +44,9 @@
             <center>
               <h3>
                 <p>
-                  <% title = @rss.css('title') %>
                    <div class="font-color-blue">
                     <br /><br />
-                    <% title.each do |link| %>
+                    <% @title.each do |link| %>
                     <%= link.text %>
                     <br /><br />
                     <% end %>

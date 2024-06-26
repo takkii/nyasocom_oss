@@ -29,6 +29,7 @@ File.open("#{File.dirname(__FILE__)}/web/rss.xml") do |f|
   @rss = Nokogiri::XML(xml, nil, "UTF-8")
 end
 
+  @title = @rss.css('title')
   published = @rss.css('published').first.content
   @pub_date = Date.parse(published).strftime '投稿日 ： %Y年%m月%d日'
   @rss_kan = '[ 最近の投稿日を表示 ]'
