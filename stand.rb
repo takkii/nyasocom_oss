@@ -25,13 +25,10 @@ end
 get '/' do
 
 File.open("#{File.dirname(__FILE__)}/web/rss.xml") do |f|
-  xml = f.read
-  @rss = Nokogiri::XML(xml, nil, "UTF-8")
+  @xml = f.read + "\n"
 end
 
-  @title = @rss.css('title')
-  published = @rss.css('published').first.content
-  @pub_date = Date.parse(published).strftime '投稿日 ： %Y年%m月%d日'
+  @es_xml = (@xml).gsub(/\R/, "<br>")
   @rss_kan = '[ 最近の投稿日を表示 ]'
   @kanban = '[ これより、30タイトル程ずつ履歴表示します ]'
   @ruby = ('Ruby_VERSION : ' + RUBY_VERSION + ' ' + 'Sinatra_VERSION : ' + Sinatra::VERSION)
