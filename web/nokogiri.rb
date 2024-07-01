@@ -3,7 +3,7 @@
 require 'nokogiri'
 
 begin
-  File.open("#{File.dirname(__FILE__)}/rss.xml") do |f|
+  File.open("#{File.dirname(__FILE__)}/nokogiri_rss.xml") do |f|
     xml = f.read
     @rss = Nokogiri::XML(xml, nil, "UTF-8")
     title = @rss.css('title')
