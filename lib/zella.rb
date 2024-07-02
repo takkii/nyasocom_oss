@@ -20,7 +20,7 @@ class Zella
       elsif "#{month}".match?(/^1[1]$/)
         calc = ((365 * year + year / 4 - year / 100 + year / 400 + (306 * (month + 1)) / 10 + day) - 427) % 7
       else
-        calc = ((365 * year + year / 4 - year / 100 + year / 400 + (306 * (month + 1)) / 10 + day) - 428) % 6
+        calc = ((365 * year + year / 4 - year / 100 + year / 400 + (306 * (month + 1)) / 10 + day) - 428) % 7
       end
     else
       calc = (year + year / 4 - year / 100 + year / 400 + (13 * month + 8) / 5 + day) % 7
@@ -38,3 +38,5 @@ class Zella
     end
   end
 end
+
+puts Zella.formula
