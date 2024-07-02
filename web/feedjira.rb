@@ -12,6 +12,7 @@ begin
       # f.puts entry.url
       f.puts entry.summary
       f.puts entry.title
+      f.puts ''
       f.puts entry.published.to_time.strftime '投稿時刻 ： %Y年%m月%d日 %H時%M分'
     end
  end
