@@ -39,4 +39,3 @@ class Zella
   end
 end
 
-puts Zella.formula
