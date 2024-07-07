@@ -9,11 +9,10 @@ begin
 
   Feedjira.parse(@rss).entries.each do |entry|
     File.open('rss.xml', 'a:utf-8', perm = 0o777) do |f|
-      # f.puts entry.url
-      f.puts entry.summary
-      f.puts entry.title
+      f.puts "#{entry.summary} <a href='#{entry.url}'> #{entry.title}</a>"
       f.puts ''
       f.puts entry.published.to_time.strftime '投稿時刻 ： %Y年%m月%d日 %H時%M分'
+      f.puts ''
     end
  end
 
