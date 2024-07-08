@@ -2,5 +2,5 @@
 
 module NYASOCOM
   # 0.0.1-Date.today
-  VERSION = '1.2.1-2024.07.07'
+  VERSION = '1.2.2-2024.07.08'
 end
