@@ -1,3 +1,4 @@
+# typed: strict
 # frozen_string_literal: true
 
 require 'feedjira'
@@ -12,11 +13,10 @@ begin
     File.open('rss.xml', 'a:utf-8', perm = 0o777) do |f|
       f.puts "#{entry.summary} <a href='#{entry.url}'>#{entry.title}</a>"
       f.puts ''
-      f.puts (entry.published.to_time).getlocal('+09:00').strftime '投稿時刻 ： %Y年%m月%d日 %H時%M分'
+      f.puts entry.published.to_time.getlocal('+09:00').strftime '投稿時刻 ： %Y年%m月%d日 %H時%M分'
       f.puts ''
     end
- end
-
+  end
 rescue StandardError => e
   puts e.backtrace
 ensure

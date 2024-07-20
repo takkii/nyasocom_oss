@@ -1,3 +1,4 @@
+# typed: false
 # frozen_string_literal: true
 
 require 'date'
@@ -5,14 +6,13 @@ require 'time'
 
 # HimekuriClass
 class HimekuriClass
-
   def himekuri_print
     dt = Date.today
-    week = %w(日 月 火 水 木 金 土)[dt.wday]
+    week = %w[日 月 火 水 木 金 土][dt.wday]
     print '時刻を表示 : '
     t = Time.new # 今日の日付と時刻
     print t.strftime('%Y年%m月%d日 : %H時%M分%S秒 : ')
-    puts week + "曜日"
+    puts week + '曜日'
   end
 
   def count_print
@@ -31,7 +31,7 @@ class HimekuriClass
     td = Date.today
 
     nen = %w[令和]
-    puts (nen[0] + "#{(td.year - 2018)}年" + "#{td.month}月" + "#{td.day}日") + ' : ' + t.to_date.jisx0301
+    puts (nen[0] + "#{td.year - 2018}年" + "#{td.month}月" + "#{td.day}日") + ' : ' + t.to_date.jisx0301
   end
 
   def wahugetsu_print
@@ -40,35 +40,35 @@ class HimekuriClass
     wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
     wahugetsu_uru = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
 
-    if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
-      calc = wahugetsu_uru[td.month - 1]
-    else
-      calc = wahugetsu[td.month]
-    end
+    calc = if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
+             wahugetsu_uru[td.month - 1]
+           else
+             wahugetsu[td.month]
+           end
 
     if "#{wahugetsu[td.month]}" == 13.to_s || "#{wahugetsu[td.month]}" == 0.to_s
       begin
-        raise "あり得ない数時の月です!"
-      rescue => e
+        raise 'あり得ない数時の月です!'
+      rescue StandardError => e
         puts e.cause.message
       end
     else
-      puts (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{calc}")
+      puts(nen[0] + "#{td.year - 2018}年" + "#{td.month}月" + "#{td.day}日" + ' : ' + "#{calc}")
     end
   end
 
   def reiwa
     td = Date.today
-    nen = %w(令和)
-    week = %w(日 月 火 水 木 金 土)[td.wday]
-    (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{week}"+"曜日")
+    nen = %w[令和]
+    week = %w[日 月 火 水 木 金 土][td.wday]
+    (nen[0] + "#{td.year - 2018}年" + "#{td.month}月" + "#{td.day}日" + ' : ' + "#{week}" + '曜日')
   end
 
   def himekuri
     dt = Date.today
-    week = %w(日 月 火 水 木 金 土)[dt.wday]
+    week = %w[日 月 火 水 木 金 土][dt.wday]
     t = Time.new # 今日の日付と時刻
-    t.strftime('%Y年%m月%d日 : %H時%M分%S秒 : ').to_s + week + "曜日"
+    t.strftime('%Y年%m月%d日 : %H時%M分%S秒 : ').to_s + week + '曜日'
   end
 
   def count
@@ -86,20 +86,20 @@ class HimekuriClass
     wahugetsu = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
     wahugetsu_uru = %w[睦月 如月 弥生 卯月 皐月 水無月 文月 葉月 長月 神無月 霜月 師走]
 
-    if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
-      calc = wahugetsu_uru[td.month - 1]
-    else
-      calc = wahugetsu[td.month]
-    end
+    calc = if "#{td.year}".to_i % 4 == 0 && "#{td.year}".to_i % 100 != 0 || "#{td.year}".to_i % 400 == 0
+             wahugetsu_uru[td.month - 1]
+           else
+             wahugetsu[td.month]
+           end
 
     if "#{wahugetsu[td.month]}" == 13.to_s || "#{wahugetsu[td.month]}" == 0.to_s
       begin
-        raise "あり得ない数時の月です!"
-      rescue => e
+        raise 'あり得ない数時の月です!'
+      rescue StandardError => e
         puts e.cause.message
       end
     else
-      (nen[0] + "#{(td.year - 2018)}年"+"#{td.month}月"+"#{td.day}日"+" : "+"#{calc}")
+      (nen[0] + "#{td.year - 2018}年" + "#{td.month}月" + "#{td.day}日" + ' : ' + "#{calc}")
     end
   end
 end
