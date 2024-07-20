@@ -9,7 +9,7 @@ services:
   proxy:
     image: nginx
     ports:
-      - "9292:9292"
+      - "80:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
     links:
