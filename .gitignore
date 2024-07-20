@@ -1,5 +1,7 @@
+.DS_Store
 .ruby-lsp/*
+.rubocop.yml
+.rubocop_todo.yml
+Gemfile.lock
 public/.DS_Store
 sorbet/*
-.DS_Store
-Gemfile.lock

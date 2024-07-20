@@ -15,15 +15,15 @@ begin
   one = ARGV[0]
 
   if one.nil?
-    puts <<-EOF
+    puts <<~EOF
 
-Clone takkii/nyasocom_oss from GitHub.
+      Clone takkii/nyasocom_oss from GitHub.
 
-cd nyasocom_oss && bundle install
+      cd nyasocom_oss && bundle install
 
-Please browzing http://localhost:9292
+      Please browzing http://localhost:9292
 
-If you want to stop, Ctrl + C.
+      If you want to stop, Ctrl + C.
 
     EOF
 
@@ -36,9 +36,9 @@ If you want to stop, Ctrl + C.
     puts 'STATUS'.center(60, '-')
     puts ''
     puts "NYASOCOM_VERSION : #{NYASOCOM::VERSION}"
-    puts <<-EOF
+    puts <<~EOF
 
-Copyright (c) 2024 Takayuki Kamiyama
+      Copyright (c) 2024 Takayuki Kamiyama
 
     EOF
     puts 'STATUS'.center(60, '-')
