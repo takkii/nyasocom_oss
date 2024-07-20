@@ -8,6 +8,7 @@ require 'himekuri'
 require 'rspec'
 require 'rack/test'
 require 'spec_helper'
+require 'time'
 require 'zella'
 
 describe 'The Stand by me App' do
@@ -21,7 +22,7 @@ describe 'The Stand by me App' do
     dt = Date.today
     week = %w[日 月 火 水 木 金 土][dt.wday]
     t = Time.new # 今日の日付と時刻
-    t.strftime('%Y年%m月%d日 : %H時%M分%S秒 : ').to_s + week + '曜日'
+    t.getlocal('+09:00').strftime('%Y年%m月%d日 : %H時%M分%S秒 : ').to_s + week + '曜日'
   end
 
   def zella
