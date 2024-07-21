@@ -22,6 +22,7 @@ class Filefeed
 
       if line.match?(sel[0])
         FileUtils.rm_rf("#{File.dirname(__FILE__)}/rss.xml")
+        puts 'Deleted, the existing rss.xml file.'
         break
       elsif line.match?(sel[1])
         puts 'You selected No, No action will be taken.'
