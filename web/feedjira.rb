@@ -9,7 +9,9 @@ require 'time'
 
 class Filefeed
   def self.delete
-    puts 'Either delete rss.xml or enter yes/no.'
+    puts ''
+    puts 'Enter yes/no to delete rss.xml, tab completion is available.'
+    puts ''
 
     sel = %w[yes no].map!(&:freeze).freeze
 
@@ -22,13 +24,19 @@ class Filefeed
 
       if line.match?(sel[0])
         FileUtils.rm_rf("#{File.dirname(__FILE__)}/rss.xml")
+        puts ''
         puts 'Deleted, the existing rss.xml file.'
+        puts ''
         break
       elsif line.match?(sel[1])
+        puts ''
         puts 'You selected No, No action will be taken.'
+        puts ''
         break
       else
+        puts ''
         puts 'Please enter yes or no as an argument.'
+        puts ''
         break
       end
     end
@@ -39,6 +47,7 @@ class Filefeed
     @rss = HTTParty.get(url).body
 
     if File.exist?("#{File.dirname(__FILE__)}/rss.xml")
+      puts ''
       puts 'rss.xml already exists.'
       delete
     else
@@ -50,7 +59,9 @@ class Filefeed
           f.puts ''
         end
       end
-      puts 'Filefeed has been created.'   
+      puts ''
+      puts 'rss.xml has been created.' 
+      puts ''  
     end
   end
 end
