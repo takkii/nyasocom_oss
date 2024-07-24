@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '3.3.4'
 
+gem 'debug'
 gem 'bundler'
 gem 'eventmachine', platforms: [:ruby]
 gem 'feedjira'

@@ -12,7 +12,7 @@ $(function() {
         //$($.browser.safari ? 'body' : 'html').animate({scrollTop:position}, speed, 'swing');
         var body = 'body';
         var userAgent = window.navigator.userAgent.toLowerCase();
-        if (userAgent.indexOf('msie') > -1 || userAgent.indexOf('trident') > -1 || userAgent.indexOf("firefox") > -1 ) { /*IE6.7.8.9.10.11*/
+        if (userAgent.indexOf('msie') > -1 || userAgent.indexOf('trident') > -1 || userAgent.indexOf("firefox") > -1) { /*IE6.7.8.9.10.11*/
             body = 'html';
         }
         $(body).animate({
@@ -21,4 +21,3 @@ $(function() {
         return false;
     });
 });
-
