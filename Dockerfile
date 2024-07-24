@@ -34,6 +34,6 @@ FROM ruby:3.3.4
 RUN git clone -b main https://github.com/takkii/nyasocom_oss.git
 WORKDIR /nyasocom_oss
 COPY . /nyasocom_oss
-RUN gem update --system ${RUBYGEMS_VERSION} && BUNDLER_VERSION=2.5.16 bundle install
+RUN gem update --system ${RUBYGEMS_VERSION} && BUNDLER_VERSION=${BUNDLER_VERSION} bundle install
 
 EXPOSE 9292
