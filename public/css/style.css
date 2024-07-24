@@ -1,34 +1,34 @@
 @charset "UTF-8";
 
 .selector-for-some-widget {
-  box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .font-color {
-  color: #0000FF;
-  display: inline-block;
-  _display: inline;
+    color: #0000FF;
+    display: inline-block;
+    _display: inline;
 }
 
 .font-color-blue {
-  color: #000080;
-  display: inline-block;
-  _display: inline;
+    color: #000080;
+    display: inline-block;
+    _display: inline;
 }
 
 .font-color-blue-bold {
-  color: #000080;
-  font-weight: bold;
-  display: inline-block;
-  _display: inline;
+    color: #000080;
+    font-weight: bold;
+    display: inline-block;
+    _display: inline;
 }
 
 .font-color-skyblue {
-  color: #2C7CFF;
-  display: inline-block;
-  _display: inline;
+    color: #2C7CFF;
+    display: inline-block;
+    _display: inline;
 }
 
 body {
-  background-color: #99CCFF;
+    background-color: #99CCFF;
 }
