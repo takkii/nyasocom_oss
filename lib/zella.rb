@@ -32,8 +32,8 @@ class Zella
     # Result.
     begin
       "#{year}年#{month}月#{day}日 : #{week}曜日"
-    # rescue StandardError => e
-    # puts e.backtrace
+    rescue StandardError => e
+      e.backtrace
     ensure
       GC.compact
     end
